@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: separate;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            width: auto;
+            text-align: center;
+        }
+
+        .black-cell {
+            background-color: black;
+            color: white;
+        }
+
+        .purple {
+            color: darkorchid;
+        }
+
+        li {
+            list-style-type: disc;
+            margin: 5px 0;
+        }
